@@ -70,7 +70,9 @@ img {
   color: #2e2f42;
 }
 .header-page-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -80,7 +82,17 @@ img {
 .header-page-link:hover,
 .header-page-link:focus {
   color: #404bbf;
+  padding-bottom: 0;
 }
+.header-page-link:hover::after,
+.header-page-link:focus::after {
+  background-color: #404bbf;
+  content: "";
+  width: auto;
+  height: 4px;
+  padding: 0;
+}
+
 .header-address {
   font-style: normal;
 }
@@ -89,6 +101,11 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.header-contact-link:hover,
+.header-contact-link:focus,
+.header-contact-linkl:active {
+  color: #404bbf;
 }
 .header-contact-link:hover,
 .header-contact-link:focus,
@@ -128,6 +145,14 @@ img {
 }
 .main-section-btn {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
 }
 .visually-hidden {
