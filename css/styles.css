@@ -235,6 +235,7 @@ img {
 }
 .team-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .icon-contact-container {
   display: flex;
@@ -285,4 +286,22 @@ fill: white;
 .footer a {
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-soc-media{
+  color: #FFF;
+  font-style: normal;
+font-weight: 500;
+line-height: 1.50;
+letter-spacing: 0.32px;
+}
+.footer-icon-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  
+}
+.footer-icon{
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  
 }
