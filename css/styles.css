@@ -68,6 +68,8 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  position: relative;
+  color: #404bbf; 
 }
 .page-logo-span {
   color: #2e2f42;
