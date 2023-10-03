@@ -354,7 +354,7 @@ img {
   margin-right: 0;
 }
 .footer a {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
 }
 .footer-soc-media {
@@ -369,21 +369,11 @@ img {
   display: flex;
   gap: 16px;
 }
-.footer-icon-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #4d5ae5;
+footer .icon-link {
   padding: 8px;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+footer .icon-link:hover,
+footer .icon-link:focus {
   background-color: #31d0aa;
 }
 .footer-container {
