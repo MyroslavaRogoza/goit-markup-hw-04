@@ -353,10 +353,6 @@ img {
 .footer .page-logo {
   margin-right: 0;
 }
-.footer a {
-  display: block;
-  margin-bottom: 16px;
-}
 .footer-soc-media {
   color: #fff;
   font-style: normal;
@@ -382,4 +378,7 @@ footer .icon-link:focus {
 }
 .logo-text-content {
   margin-right: 120px;
+}
+.text-content{
+  margin-top: 16px;
 }
