@@ -73,9 +73,7 @@ img {
   color: #2e2f42;
 }
 .header-page-link {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  display: block;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -117,11 +115,6 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-contact-link:hover,
-.header-contact-link:focus,
-.header-contact-linkl:active {
-  color: #404bbf;
 }
 .header-contact-link:hover,
 .header-contact-link:focus,
@@ -175,6 +168,7 @@ img {
   background-size: cover;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .visually-hidden {
   position: absolute;
@@ -228,10 +222,6 @@ img {
   background: #f4f4fd;
   margin-bottom: 8px;
 }
-.header-desc-icon {
-  display: inline-block;
-  margin: 24px 100px;
-}
 .main-sec-team {
   background-color: #f4f4fd;
 }
@@ -264,8 +254,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-right: 16px;
-  padding-left: 16px;
   margin-top: 8px;
 }
 .soc-icon-list {
@@ -376,6 +364,6 @@ footer .icon-link:focus {
 .logo-text-content {
   margin-right: 120px;
 }
-.text-content{
+footer .text-content {
   margin-top: 16px;
 }
