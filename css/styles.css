@@ -83,7 +83,6 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .main-link {
   position: relative;
   color: #404bbf;
@@ -102,7 +101,6 @@ img {
 .header-page-link:hover,
 .header-page-link:focus {
   color: #404bbf;
-  padding-bottom: 0;
 }
 .header-address {
   font-style: normal;
